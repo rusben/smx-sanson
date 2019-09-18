@@ -1,0 +1,54 @@
+* { box-sizing: border-box;}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+#contenedor {margin-top: 50px; width:80%;margin: 0 auto;}
+
+.accordion {
+   background-color: #eee;
+   color: #444;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   text-align: left;
+   border: none;
+   outline: none;
+   transition: 0.4s;
+}
+.active, .accordion:hover {
+   background-color: #ccc;
+}
+.panel {
+   padding: 0 18px;
+   background-color: white;
+   display: none;
+   overflow: hidden;
+}
+#tercerafila {text-align: right;}
+.colunma-izquierda {text-align: left;}
+.colunma-derecha {text-align: right;}
